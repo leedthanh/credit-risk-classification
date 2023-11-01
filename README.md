@@ -1,5 +1,10 @@
 # credit-risk-classification
+# Purpose of the analysis
+Use machine learning model to classify approve or not approve morgate loans by using logisticRegression
+The financial data was on a csv file so I read the csv file into panda dataframe.  Since all the financial features are in decimals I did not have to use dummies variables.
+I'm trying to predict the loan_status with '0' being a healthy loan and '1' being a high-risk loan based on loan_size, interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks,	and total_debt.
 
+# Stages of the machine learning process I went through as part of this analysis.
 # Split the Data into Training and Testing Sets
 Read the lending_data.csv data from the Resources folder into a Pandas DataFrame
 ![Screen Shot 2023-11-01 at 1 01 14 AM](https://github.com/leedthanh/credit-risk-classification/assets/135544908/63d631f6-fb49-46de-98dc-b2dd844b9a11)
