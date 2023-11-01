@@ -17,7 +17,7 @@ Check the balance of the labels variable (y) by using the value_counts function
 labels variable (y) is not balanced so we will need to resample it.
 Split the data into training and testing datasets by using train_test_split
 
-# Create a Logistic Regression Model with the Original Data
+# Model 1: Create a Logistic Regression Model with the Original Data
 Fit a logistic regression model by using the training data (X_train and y_train)
 
 ![Screen Shot 2023-11-01 at 1 07 11 AM](https://github.com/leedthanh/credit-risk-classification/assets/135544908/e72d7f72-e13f-4eee-8e72-dba96e921eb2)
@@ -46,7 +46,7 @@ Print the classification report.
 # Summary for model 1: Credit Risk Analysis Report
 The model predict bothe the '0' healthy loan with a 100% accuracy high precision. For label '1' high-risk loan. the precision is .85, indicating that when the model predicts high-risk it is correct 85% of the time. The model also correctly identifies 99% of the 'healthy' loans because the recal is .99 and for high-risk loans the model correctly identifies 91% of the actual high-risk loans. The F1-score show 100% accuracy between precision and recall for '0' healthy loans and 88% for '1' high-risk loans.
 
-# Model 2 Predict a Logistic Regression Model with Resampled Training Data
+# Model 2: Predict a Logistic Regression Model with Resampled Training Data
 
 Use the RandomOverSampler module from the imbalanced-learn library to resample the data.
 resample label 0    56271
