@@ -52,9 +52,11 @@ Use the LogisticRegression classifier and the resampled data to fit the model an
 Evaluate the model’s performance by doing the following
 
 Calculate the accuracy score of the model.
-0.9936781215845847
+
+Accuracy = 0.9936781215845847
 
 Generate a confusion matrix.
+
 
 confusion matrix [[18649   116]
  [    4   615]]
