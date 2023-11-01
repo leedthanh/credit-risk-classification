@@ -33,6 +33,7 @@ Generate a confusion matrix.
  
 Print the classification report.                     
 
+
 ![Screen Shot 2023-11-01 at 1 09 14 AM](https://github.com/leedthanh/credit-risk-classification/assets/135544908/54cd7211-34a7-4001-98e7-f7a623328d32)
 
 
@@ -59,6 +60,7 @@ confusion matrix [[18649   116]
  [    4   615]]
 
 Print the classification report.
+
 ![Screen Shot 2023-11-01 at 1 12 01 AM](https://github.com/leedthanh/credit-risk-classification/assets/135544908/96de6d70-bf9b-44a5-9797-6fe9f040e118)
 
 # Write a Credit Risk Analysis Report
