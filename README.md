@@ -29,11 +29,12 @@ Generate a confusion matrix.
 
 [[18663   102]
  [   56   563]]
- 
-Print the classification report.
 
+ 
+Print the classification report.                     
 
 ![Screen Shot 2023-11-01 at 1 09 14 AM](https://github.com/leedthanh/credit-risk-classification/assets/135544908/54cd7211-34a7-4001-98e7-f7a623328d32)
+
 
 # Write a Credit Risk Analysis Report
 The model predict bothe the '0' healthy loan with a 100% accuracy high precision. For label '1' high-risk loan. the precision is .85, indicating that when the model predicts high-risk it is correct 85% of the time. The model also correctly identifies 99% of the 'healthy' loans because the recal is .99 and for high-risk loans the model correctly identifies 91% of the actual high-risk loans. The F1-score show 100% accuracy between precision and recall for '0' healthy loans and 88% for '1' high-risk loans.
