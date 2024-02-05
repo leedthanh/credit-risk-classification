@@ -1,6 +1,6 @@
 # credit-risk-classification
 # Purpose of the analysis
-Use machine learning model to classify approve or not approve morgate loans by using logisticRegression
+Use machine learning model to classify approve or not approve mortgage loans by using logisticRegression
 The financial data was on a csv file so I read the csv file into panda dataframe.  Since all the financial features are in decimals I did not have to use dummies variables.
 I'm trying to predict the loan_status with '0' being a healthy loan and '1' being a high-risk loan based on loan_size, interest_rate,	borrower_income,	debt_to_income,	num_of_accounts,	derogatory_marks,	and total_debt.
 
